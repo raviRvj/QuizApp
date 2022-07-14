@@ -1,0 +1,55 @@
+:root {
+    --mainColor: #3944f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--mainColor);
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-div {
+    background-color: white;
+    color: black;
+    padding: 40px 100px;
+    max-width: 50%;
+}
+
+.inner-div ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.inner-div ul li {
+    margin-top: 0.5rem;
+}
+
+.inner-div button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--mainColor);
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+}
+
+#showScore {
+    text-align: center;
+    margin-top: 1rem;
+}
